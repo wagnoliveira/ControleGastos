@@ -1,4 +1,43 @@
 body {
-    background: rgb(66, 30, 66);
-    color: rgb(248, 241, 241);
+    background: rgb(75, 75, 180);
+    font: normal 15pt Futura;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section#conttot {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(14, 0, 63, 0.411);
+}
+
+section#gastagora {
+    background: rgb(89, 179, 48);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(14, 0, 63, 0.411);
+}
+
+section#gastinvest {
+    background: rgb(243, 43, 176);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(14, 0, 63, 0.411);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+
 }

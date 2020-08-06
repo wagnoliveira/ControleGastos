@@ -8,26 +8,41 @@
 </head>
 <body>
     <header>
-        <h1>Controle Mensal de Gastos</h1>
-
+        <h1>Controle de Gastos</h1>
     </header>
-    <section>
+    <section id="conttot">
         <div>
-            Rendimentos <input type="number" name="rendimentos" id="rendimentos">
-            <input type="button" value="Adicionar" onclick="calcular()">
-
+            <h1>Rendimento Mensal:</h1>
+            <input type="number" name="txttot" id="txttot">
+            <input type="button" value="Calcular" onclick="calcular()">
+            
         </div>
-        <div id="res">
-            Teste.
+        <div id="valor">
+            <p>Aqui vai aparecer o resultado...</p>
+        </div>
+    </section>
+    <section id="gastagora">
+        <div>
+            <h1>Gastos de agora</h1>
+        </div>
+        <div id="gagora">
+            <p>Aqui vão aparecer os gastos mensais divididos assim:</p>
+            <p>55% essenciais <br> 5% estudos <br> 10% besteiras</p>
+        </div>
+        
+    </section>
+    <section id="gastinvest">
+        <div>
+            <h1>Investimentos</h1>
+        </div>
+        <div id="ginvest">
+            <p>Aqui vão aparecer os investimentos feitos no mês</p>
         </div>
     </section>
     <footer>
-        <p>PoB Development</p>
-
+        <p>&copy; PoB Development</p>
     </footer>
     <script src="script.js"></script>
 
-
-    
 </body>
 </html>
